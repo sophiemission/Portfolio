@@ -1,0 +1,198 @@
+body{
+  margin-top: 100px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background:#6ab446;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+
+.container-fluid{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.header{
+  text-align: center;
+  box-sizing: border-box;
+  background-image: url("images/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+.profile-pic{
+  padding-top: 30px;
+  border-radius:100%;
+  filter: brightness(90%);
+}
+.row-grey{
+  background-color: #f3f3f3;
+  clip: (0 0%,100% 4%,100% 96%, 0% 100%);
+  padding: 65px 10px;
+  justify-content: center;
+}
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-sm-8{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.row-white{
+  padding: 65px 10px;
+  background-color:  #def1e2;
+  justify-content: center;
+}
+.row-tools{
+  background-color:  #f3f3f3 ;
+
+}
+.img-responsive {
+  width: 600px;
+  height: 580px;
+  padding: 30px;
+}
+.row-footer{
+  background-color: #f3f3f3;
+  justify-content: center;
+}
+.text-center{
+  justify-content: center;
+  padding: 20px;
+}
+p,h2,h3,h4,h5,h6{
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight:normal;
+}
+h2,h4{
+  color:  #3080e7 ;
+}
+.header-title{
+background-color:#def1e2 ;
+max-width: 500px;
+opacity: 0.6;
+margin: 0 auto;
+color:  green;
+border-radius: 50%;
+padding-top: 20px;
+}
+.btn-launch{
+  border:1px solid #6ab446;
+background:#6ab446;
+border-radius: 0;
+color:#fff;
+}
+.btn-launch:hover {
+border:1px solid #fff;
+background:#fff;
+color:#000;
+}
+/*about page*/
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+/*Contact page*/
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+.form{
+  padding: 30px;
+}
+.techlogo{
+  padding: 10px;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 2em;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .features {
+    margin: 0;
+  }
+
+}
