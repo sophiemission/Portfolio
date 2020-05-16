@@ -14,7 +14,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#6ab446;
+  background:  #6ab446 /*#70bbb4*/  ;
 }
 
 .nav-link,
@@ -35,8 +35,6 @@ body {
   justify-content: flex-end;
 }
 
-
-
 .container-fluid{
   padding-right: 15px;
   padding-left: 15px;
@@ -50,13 +48,26 @@ body {
   background-image: url("images/header-background.jpg");
   background-size: cover;
   background-position: center;
+  width: 100%;
+}
 
+.header-title{
+max-width: 500px;
+opacity: 0.9;
+margin: 0 auto;
+color: /*#535d77*/ /*#6ab446*/ #fff  /*#333*/;
+border-radius: 50%;
+padding-top: 50px;
+float: right;
 }
 .profile-pic{
-  padding-top: 30px;
-  border-radius:100%;
+  padding: 30px;
+  border-radius:150%;
   filter: brightness(90%);
+  opacity: 0.9;
+  float: right;
 }
+
 .row-grey{
   background-color: #f3f3f3;
   clip: (0 0%,100% 4%,100% 96%, 0% 100%);
@@ -91,6 +102,7 @@ body {
 .row-footer{
   background-color: #f3f3f3;
   justify-content: center;
+  color: #3080e7; 
 }
 .text-center{
   justify-content: center;
@@ -104,23 +116,15 @@ p,h2,h3,h4,h5,h6{
 h2,h4{
   color:  #3080e7 ;
 }
-.header-title{
-background-color:#def1e2 ;
-max-width: 500px;
-opacity: 0.6;
-margin: 0 auto;
-color:  green;
-border-radius: 50%;
-padding-top: 20px;
-}
+
 .btn-launch{
-  border:1px solid #6ab446;
-background:#6ab446;
+border:1px solid  /*#535d77*/#6ab446;
+background: /*#70bbb4*/ #6ab446;
 border-radius: 0;
 color:#fff;
 }
 .btn-launch:hover {
-border:1px solid #fff;
+border:1px solid #535d77 /*#fff*/;
 background:#fff;
 color:#000;
 }
